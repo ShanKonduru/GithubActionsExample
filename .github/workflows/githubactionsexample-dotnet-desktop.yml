@@ -34,7 +34,7 @@ jobs:
         dotnet-version: 6.0.x
 
     - name: Install Required Tools
-        run: |
+        shell: |
           dotnet new tool-manifest
           dotnet tool install dotnet-reportgenerator-globaltool
           dotnet tool install dotnet-coverage
