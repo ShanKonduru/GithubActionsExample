@@ -1901,6 +1901,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
+      },
+      "ScientificCalculator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ScientificCalculator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ScientificCalculator.dll": {}
+        }
       }
     }
   },
@@ -6761,6 +6771,11 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
+    },
+    "ScientificCalculator/1.0.0": {
+      "type": "project",
+      "path": "../ScientificCalculator/ScientificCalculator.csproj",
+      "msbuildProject": "../ScientificCalculator/ScientificCalculator.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6768,6 +6783,7 @@
       "MSTest.TestAdapter >= 2.2.10",
       "MSTest.TestFramework >= 2.2.10",
       "Microsoft.NET.Test.Sdk >= 17.3.2",
+      "ScientificCalculator >= 1.0.0",
       "coverlet.collector >= 3.1.2"
     ]
   },
@@ -6796,7 +6812,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\e001150\\GithubActionsExample\\ScientificCalculator\\ScientificCalculator.csproj": {
+              "projectPath": "C:\\Users\\e001150\\GithubActionsExample\\ScientificCalculator\\ScientificCalculator.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
