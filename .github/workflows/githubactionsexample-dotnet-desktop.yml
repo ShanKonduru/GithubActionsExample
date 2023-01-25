@@ -3,11 +3,16 @@ name: .NET Core Desktop
   push:
     branches:
       - master
+      paths-ignore:
+    - 'README.md'
   pull_request:
     branches:
       - master
+      paths-ignore:
+    - 'README.md'
 jobs:
-  build:
+  build-and-test:
+  name: build-and-test-${{matrix.configuration}}
     strategy:
       matrix:
         configuration:
@@ -50,9 +55,13 @@ jobs:
           Configuration: '${{ matrix.configuration }}'
       - name: Setup JFrog CLI
         uses: jfrog/setup-jfrog-cli@v3.0.0
-      - name: Install Prerequisite Tools
+      - name: Install tool tool-manifest
         run: dotnet new tool-manifest
+      - name: Install tool dotnet-reportgenerator-globaltool
+        run: dotnet tool install dotnet-reportgenerator-globaltool
+      - name: Install tool dotnet-coverage
+        run: dotnet tool install dotnet-coverage
       - name: Run the unit tests with code coverage
         run: dotnet coverage collect dotnet test --output ${{ github.workspace}}/Tests/Coverage --output-format cobertura
-      - name: Generate Report
+      - name: Generate coverage Report
         run: dotnet reportgenerator -reports:${{ github.workspace}}/Tests/Coverage.cobertura.xml -targetdir:"${{ github.workspace}}/Tests/coveragereport" -reporttypes:Html
