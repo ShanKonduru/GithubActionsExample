@@ -118,3 +118,6 @@ jobs:
     - name: Code Coverage Summary
       uses: irongut/CodeCoverageSummary@v1.3.0
 
+    # Jfrog Artifactory Integration
+    - name: Setup JFrog CLI
+      uses: jfrog/setup-jfrog-cli@v3.0.0
