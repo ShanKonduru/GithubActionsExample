@@ -1,18 +1,13 @@
 name: .NET Core Desktop
-'on':
+"on":
   push:
     branches:
       - master
-      paths-ignore:
-    - 'README.md'
   pull_request:
     branches:
       - master
-      paths-ignore:
-    - 'README.md'
 jobs:
   build-and-test:
-  name: build-and-test-${{matrix.configuration}}
     strategy:
       matrix:
         configuration:
@@ -40,7 +35,7 @@ jobs:
           msbuild $env:Solution_Name /t:Restore
           /p:Configuration=$env:Configuration
         env:
-          Configuration: '${{ matrix.configuration }}'
+          Configuration: "${{ matrix.configuration }}"
       - name: Create the app package
         run: >-
           msbuild $env:Wap_Project_Path /p:Configuration=$env:Configuration
@@ -52,7 +47,7 @@ jobs:
           Appx_Bundle: Always
           Appx_Bundle_Platforms: x86|x64
           Appx_Package_Build_Mode: StoreUpload
-          Configuration: '${{ matrix.configuration }}'
+          Configuration: "${{ matrix.configuration }}"
       - name: Setup JFrog CLI
         uses: jfrog/setup-jfrog-cli@v3.0.0
       - name: Install tool tool-manifest
