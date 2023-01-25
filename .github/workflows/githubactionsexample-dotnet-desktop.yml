@@ -33,11 +33,11 @@ jobs:
       with:
         dotnet-version: 6.0.x
 
-    - name: Install Required Tools
-        shell: |
-          dotnet new tool-manifest
-          dotnet tool install dotnet-reportgenerator-globaltool
-          dotnet tool install dotnet-coverage
+      # - name: Install Prerequisite Tools
+      # - run: |
+      #     dotnet new tool-manifest
+      #     dotnet tool install dotnet-reportgenerator-globaltool
+      #     dotnet tool install dotnet-coverage
 
       - name: Run the unit tests with code coverage
         run: dotnet coverage collect dotnet test --output ${{ github.workspace }}/Tests/Coverage --output-format cobertura
