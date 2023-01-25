@@ -53,6 +53,6 @@ jobs:
       - name: Install Prerequisite Tools
         run: dotnet new tool-manifest
       - name: Run the unit tests with code coverage
-        run: dotnet coverage collect dotnet test --output ${{ githu.workspace}}/Tests/Coverage --output-format cobertura
+        run: dotnet coverage collect dotnet test --output ${{ github.workspace}}/Tests/Coverage --output-format cobertura
       - name: Generate Report
         run: dotnet reportgenerator -reports:${{ github.workspace}}/Tests/Coverage.cobertura.xml -targetdir:"${{ github.workspace}}/Tests/coveragereport" -reporttypes:Html
