@@ -8,26 +8,25 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\e001150\\.nuget\\packages\\": {}
+    "C:\\Users\\E001150\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\e001150\\GithubActionsExample\\ScientificCalculator\\ScientificCalculator.csproj",
+      "projectUniqueName": "c:\\Users\\E001150\\GithubActions\\GithubActionsExample\\ScientificCalculator\\ScientificCalculator.csproj",
       "projectName": "ScientificCalculator",
-      "projectPath": "C:\\Users\\e001150\\GithubActionsExample\\ScientificCalculator\\ScientificCalculator.csproj",
-      "packagesPath": "C:\\Users\\e001150\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\e001150\\GithubActionsExample\\ScientificCalculator\\obj\\",
+      "projectPath": "c:\\Users\\E001150\\GithubActions\\GithubActionsExample\\ScientificCalculator\\ScientificCalculator.csproj",
+      "packagesPath": "C:\\Users\\E001150\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\E001150\\GithubActions\\GithubActionsExample\\ScientificCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\e001150\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\E001150\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {},
-        "https://shankonduru.jfrog.io/artifactory/api/nuget/v3/shankonduru-nuget": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {

@@ -6788,33 +6788,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\e001150\\.nuget\\packages\\": {}
+    "C:\\Users\\E001150\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\e001150\\GithubActionsExample\\TestScientificCalculator\\TestScientificCalculator.csproj",
+      "projectUniqueName": "C:\\Users\\E001150\\GithubActions\\GithubActionsExample\\TestScientificCalculator\\TestScientificCalculator.csproj",
       "projectName": "TestScientificCalculator",
-      "projectPath": "C:\\Users\\e001150\\GithubActionsExample\\TestScientificCalculator\\TestScientificCalculator.csproj",
-      "packagesPath": "C:\\Users\\e001150\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\e001150\\GithubActionsExample\\TestScientificCalculator\\obj\\",
+      "projectPath": "C:\\Users\\E001150\\GithubActions\\GithubActionsExample\\TestScientificCalculator\\TestScientificCalculator.csproj",
+      "packagesPath": "C:\\Users\\E001150\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\E001150\\GithubActions\\GithubActionsExample\\TestScientificCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\e001150\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\E001150\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {},
-        "https://shankonduru.jfrog.io/artifactory/api/nuget/v3/shankonduru-nuget": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\e001150\\GithubActionsExample\\ScientificCalculator\\ScientificCalculator.csproj": {
-              "projectPath": "C:\\Users\\e001150\\GithubActionsExample\\ScientificCalculator\\ScientificCalculator.csproj"
+            "C:\\Users\\E001150\\GithubActions\\GithubActionsExample\\ScientificCalculator\\ScientificCalculator.csproj": {
+              "projectPath": "C:\\Users\\E001150\\GithubActions\\GithubActionsExample\\ScientificCalculator\\ScientificCalculator.csproj"
             }
           }
         }

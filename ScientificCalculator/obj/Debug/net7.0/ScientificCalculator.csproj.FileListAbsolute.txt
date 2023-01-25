@@ -10,3 +10,15 @@ C:\Users\e001150\GithubActionsExample\ScientificCalculator\obj\Debug\net7.0\Scie
 C:\Users\e001150\GithubActionsExample\ScientificCalculator\obj\Debug\net7.0\refint\ScientificCalculator.dll
 C:\Users\e001150\GithubActionsExample\ScientificCalculator\obj\Debug\net7.0\ScientificCalculator.pdb
 C:\Users\e001150\GithubActionsExample\ScientificCalculator\obj\Debug\net7.0\ref\ScientificCalculator.dll
+c:\Users\E001150\GithubActions\GithubActionsExample\ScientificCalculator\bin\Debug\net7.0\ScientificCalculator.deps.json
+c:\Users\E001150\GithubActions\GithubActionsExample\ScientificCalculator\bin\Debug\net7.0\ScientificCalculator.dll
+c:\Users\E001150\GithubActions\GithubActionsExample\ScientificCalculator\bin\Debug\net7.0\ScientificCalculator.pdb
+c:\Users\E001150\GithubActions\GithubActionsExample\ScientificCalculator\obj\Debug\net7.0\ScientificCalculator.csproj.AssemblyReference.cache
+c:\Users\E001150\GithubActions\GithubActionsExample\ScientificCalculator\obj\Debug\net7.0\ScientificCalculator.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\E001150\GithubActions\GithubActionsExample\ScientificCalculator\obj\Debug\net7.0\ScientificCalculator.AssemblyInfoInputs.cache
+c:\Users\E001150\GithubActions\GithubActionsExample\ScientificCalculator\obj\Debug\net7.0\ScientificCalculator.AssemblyInfo.cs
+c:\Users\E001150\GithubActions\GithubActionsExample\ScientificCalculator\obj\Debug\net7.0\ScientificCalculator.csproj.CoreCompileInputs.cache
+c:\Users\E001150\GithubActions\GithubActionsExample\ScientificCalculator\obj\Debug\net7.0\ScientificCalculator.dll
+c:\Users\E001150\GithubActions\GithubActionsExample\ScientificCalculator\obj\Debug\net7.0\refint\ScientificCalculator.dll
+c:\Users\E001150\GithubActions\GithubActionsExample\ScientificCalculator\obj\Debug\net7.0\ScientificCalculator.pdb
+c:\Users\E001150\GithubActions\GithubActionsExample\ScientificCalculator\obj\Debug\net7.0\ref\ScientificCalculator.dll
