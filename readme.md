@@ -1,4 +1,4 @@
-#Configuring Code Coverage
+# Configuring Code Coverage
 
 ```bash
 dotnet new --install TimHeuer.GitHubActions.Templates
