@@ -74,7 +74,7 @@ jobs:
         dotnet-version: 6.0.x
 
     - name: Install Required Tools
-        run: |
+        run: | 
           dotnet new tool-manifest
           dotnet tool install dotnet-reportgenerator-globaltool
           dotnet tool install dotnet-coverage
@@ -83,8 +83,7 @@ jobs:
         run: dotnet coverage collect dotnet test --output ${{ github.workspace }}/Tests/Coverage --output-format cobertura
 
       - name: Generate Report
-        run: |
-          dotnet reportgenerator -reports:${{ github.workspace }}/Tests/Coverage.cobertura.xml -targetdir:"${{ github.workspace }}/Tests/coveragereport" -reporttypes:Html
+        run: dotnet reportgenerator -reports:${{ github.workspace }}/Tests/Coverage.cobertura.xml -targetdir:"${{ github.workspace }}/Tests/coveragereport" -reporttypes:Html
 
     # Add  MSBuild to the PATH: https://github.com/microsoft/setup-msbuild
     - name: Setup MSBuild.exe
