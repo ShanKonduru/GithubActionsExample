@@ -113,3 +113,8 @@ jobs:
       with:
         name: MSIX Package
         path: ${{ env.Wap_Project_Directory }}\AppPackages
+
+    # Enable Code Coverage for this .NET assemly
+    - name: Code Coverage Summary
+      uses: irongut/CodeCoverageSummary@v1.3.0
+
