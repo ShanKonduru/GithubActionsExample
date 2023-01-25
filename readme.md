@@ -1,6 +1,8 @@
 Configuring Code Coverage
 ----------------------------------------
 
+dotnet new --install TimHeuer.GitHubActions.Templates
+
 Lets explore the dotnet tool called dotnet coverage and learn how to use this tool to collect code coverage and generate code coverage report using the reportgenerator tool. 
 I will also see how we can be integrated to GitHub actions.
 
