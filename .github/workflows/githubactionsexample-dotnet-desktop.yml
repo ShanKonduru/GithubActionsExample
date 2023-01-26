@@ -60,3 +60,7 @@ jobs:
         run: dotnet coverage collect dotnet test --output ${{ github.workspace}}/Tests/Coverage --output-format cobertura
       - name: Generate coverage Report
         run: dotnet reportgenerator -reports:${{ github.workspace}}/Tests/Coverage.cobertura.xml -targetdir:"${{ github.workspace}}/Tests/coveragereport" -reporttypes:Html
+      - name: Download a Build Artifact
+        uses: actions/download-artifact@v3.0.2
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v3.1.2

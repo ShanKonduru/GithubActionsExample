@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\E001150\\GithubActions\\GithubActionsExample\\TestScientificCalculator\\TestScientificCalculator.csproj": {}
+    "c:\\Users\\E001150\\GithubActions\\GithubActionsExample\\TestScientificCalculator\\TestScientificCalculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\E001150\\GithubActions\\GithubActionsExample\\ScientificCalculator\\ScientificCalculator.csproj": {
+    "c:\\Users\\E001150\\GithubActions\\GithubActionsExample\\ScientificCalculator\\ScientificCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\E001150\\GithubActions\\GithubActionsExample\\ScientificCalculator\\ScientificCalculator.csproj",
+        "projectUniqueName": "c:\\Users\\E001150\\GithubActions\\GithubActionsExample\\ScientificCalculator\\ScientificCalculator.csproj",
         "projectName": "ScientificCalculator",
-        "projectPath": "C:\\Users\\E001150\\GithubActions\\GithubActionsExample\\ScientificCalculator\\ScientificCalculator.csproj",
+        "projectPath": "c:\\Users\\E001150\\GithubActions\\GithubActionsExample\\ScientificCalculator\\ScientificCalculator.csproj",
         "packagesPath": "C:\\Users\\E001150\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\E001150\\GithubActions\\GithubActionsExample\\ScientificCalculator\\obj\\",
+        "outputPath": "c:\\Users\\E001150\\GithubActions\\GithubActionsExample\\ScientificCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\E001150\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "C:\\Users\\E001150\\GithubActions\\GithubActionsExample\\TestScientificCalculator\\TestScientificCalculator.csproj": {
+    "c:\\Users\\E001150\\GithubActions\\GithubActionsExample\\TestScientificCalculator\\TestScientificCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\E001150\\GithubActions\\GithubActionsExample\\TestScientificCalculator\\TestScientificCalculator.csproj",
+        "projectUniqueName": "c:\\Users\\E001150\\GithubActions\\GithubActionsExample\\TestScientificCalculator\\TestScientificCalculator.csproj",
         "projectName": "TestScientificCalculator",
-        "projectPath": "C:\\Users\\E001150\\GithubActions\\GithubActionsExample\\TestScientificCalculator\\TestScientificCalculator.csproj",
+        "projectPath": "c:\\Users\\E001150\\GithubActions\\GithubActionsExample\\TestScientificCalculator\\TestScientificCalculator.csproj",
         "packagesPath": "C:\\Users\\E001150\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\E001150\\GithubActions\\GithubActionsExample\\TestScientificCalculator\\obj\\",
+        "outputPath": "c:\\Users\\E001150\\GithubActions\\GithubActionsExample\\TestScientificCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\E001150\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -79,8 +79,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\E001150\\GithubActions\\GithubActionsExample\\ScientificCalculator\\ScientificCalculator.csproj": {
-                "projectPath": "C:\\Users\\E001150\\GithubActions\\GithubActionsExample\\ScientificCalculator\\ScientificCalculator.csproj"
+              "c:\\Users\\E001150\\GithubActions\\GithubActionsExample\\ScientificCalculator\\ScientificCalculator.csproj": {
+                "projectPath": "c:\\Users\\E001150\\GithubActions\\GithubActionsExample\\ScientificCalculator\\ScientificCalculator.csproj"
               }
             }
           }

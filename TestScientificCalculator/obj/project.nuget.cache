@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v6dAgtNQ/YK1j9NXn2Wu4+e7F9wlQw6RJFYjtLrUh8/xsy4CVEhmWBPRiBhgc/k80qA9/NaPiNYslOnoJT7hHQ==",
+  "dgSpecHash": "zzGXFuHPITfQ9wLeZGniQzn3iED+Fu7ACgs5vWAKIs7+guwYAhmxxmznQifdD8Q7Gb4rPpybyVYrhreQArXUlw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\E001150\\GithubActions\\GithubActionsExample\\TestScientificCalculator\\TestScientificCalculator.csproj",
+  "projectFilePath": "c:\\Users\\E001150\\GithubActions\\GithubActionsExample\\TestScientificCalculator\\TestScientificCalculator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\E001150\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\E001150\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

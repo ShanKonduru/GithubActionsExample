@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d3yXY197mgWtg0NPN9Ge5ZI5ICz6MtVJ5aVrrBtayajbuqH+eGiP0kjZhJVdKdvI/wW/0Fzj/mGF4pDl6MEfTA==",
+  "dgSpecHash": "OhjmQE9gMj+sYCqArHsfH5pM7SH+8yK8AQ+koq4qNW35Nv8ZxYIfuEmrs7oyENAedAfHDDPWyJWXr7QdZqeVSQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\E001150\\GithubActions\\GithubActionsExample\\ScientificCalculator\\ScientificCalculator.csproj",
+  "projectFilePath": "c:\\Users\\E001150\\GithubActions\\GithubActionsExample\\ScientificCalculator\\ScientificCalculator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
